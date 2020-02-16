@@ -1,0 +1,34 @@
+-- this is an example
+
+group: databaseEx02 
+
+
+STAFF = {
+	S_No:string, Name:string, Position:string, Sex:string, DoB:string, Salary:number, B_No:string
+	SL21, 'Chuchai Suksri', Manager, M, '01/10/1955', 30000, B5
+	SG37, 'Siritat Manejun', 'Snr Asst', F, '10/10/1960', 12000, B3
+	SG14, 'Somsak SaeTang', Deputy, M, '24/03/1958', 18000, B5
+	SA09, 'Piyachat Eamsuk', Assistant, F, '19/02/1970', 9000, B7
+	SG05, 'Pornrat Thanasilp', Manager, F, '03/01/1940', 24000, B3
+	SL41, 'Ladda Wongdee', Assistant, F, '13/01/1965', 9000, B5
+}
+
+BRANCH = {
+B_No:string, City:string, P_Code:number
+
+B5, Chaingmai, 50300
+B7, Phitsanulok, 65150
+B3, Bangkok, 10110
+B4, Chaingrai, 57000
+}
+
+PROPERTY_FOR_RENT = {
+P_No, Type, Rooms, Rent, S_No, B_No
+
+PA14, House, 6, 650, SA09, B7
+PG16, Flat, 4, 450, SG14, B3
+PL94, Flat, 4, 400, SL41, B5
+PG04, Flat, 3, 350, SG14, B3
+PG36, Flat, 3, 375, SG37, B3
+PG21, House, 5, 600, SG37, B3
+}
